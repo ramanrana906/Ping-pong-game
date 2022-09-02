@@ -1,0 +1,52 @@
+
+
+
+body{
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+#rod-1{
+    width: 200px;
+    height: 40px;
+background-color: aqua;
+border-radius: 50px;
+position: absolute;
+top: 5;
+
+}
+
+
+#ball{
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    position: absolute;
+    top: 50px;
+}
+
+
+
+
+#rod-2{
+    position: absolute;
+bottom: 5px;
+    width: 200px;
+    height: 40px;
+background-color: yellow;
+border-radius: 50px;
+
+}
+
+
+.left-side{
+    left: 0;
+}
+.right-side{
+    left: 80%;
+}
